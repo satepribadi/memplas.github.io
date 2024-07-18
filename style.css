@@ -81,4 +81,27 @@ a:hover{
 }
 
 
+.div2{
+  background-color:skyblue;
+  color:red;
+  width: 1450px;
+  height: 400px;
+  text-align: center;
+  font-size: 20px;
 
+  
+}
+.div2>h1{
+  color: red;
+  text-align: center;
+  font-size:25px;
+}
+
+
+.li4{
+  width: 300px;
+  height: 150px;
+  margin-top: 130px;
+  margin-left: 30px;
+  
+}
