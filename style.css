@@ -73,13 +73,35 @@ h2{
   padding-right: 20px;
   
 }
-@media(max-width:400px)
+
+@media(max-width:1160px)
 {.image{
-  width: 70px;
-  height: 70px;
+  width: 160px;
+  height: 200px;
+}
+#div3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  padding-top: 120px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
 }
 }
-@media(min-width:500px){.image{
+@media(min-width:1160px){.image{
   width: 275px;
   height: 275px;
-}}
+}
+  #div3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+}
