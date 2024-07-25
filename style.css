@@ -62,9 +62,24 @@ h2{
 }
 
 
-.image{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: end;
+
+#div3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
+@media(max-width:400px)
+{.image{
+  width: 70px;
+  height: 70px;
+}
+}
+@media(min-width:500px){.image{
+  width: 275px;
+  height: 275px;
+}}
