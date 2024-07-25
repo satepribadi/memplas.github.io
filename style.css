@@ -63,16 +63,6 @@ h2{
 
 
 
-#div3{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items:center;
-  padding-top: 120px;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-}
 
 @media(max-width:1160px)
 {.image{
