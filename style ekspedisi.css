@@ -12,7 +12,7 @@ img{
     background-color:skyblue;
     text-align: center;
     font-size: 20px;
-    font-style: bold;
+    text-decoration: solid;
     color: black;
   }
   th{
